@@ -90,8 +90,73 @@ height: 400px;
 
 .learn-more:hover{
   width: 160px;
+  border: 1px solid black;
   color:black;
   background-color: white;
   transition: 500ms;
   cursor: pointer;
 }
+
+/* ------------about section-------- */
+
+.about-section > h1,.services-section > h2,.services-section > h1{
+  text-align: center;
+}
+
+.underline-about{
+  height: 13px;
+  width: 160px;
+  background:var(--gr-4,linear-gradient(54deg,#0091ff 0,#9cfeff 100%));
+  margin: auto;
+  border-radius: 8px;
+  margin-top: -20px;
+}
+
+.about-info-div{
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 100px;
+  border-radius: 16px;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #E2F2FF;
+ font-size: 20px;
+}
+
+.about-info-div > div{
+padding:20px ;
+/* padding-top: 40px; */
+margin-top: 40px;
+}
+
+
+.group-img > div{
+  width: 450px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://lenscorp.ai/_next/image?url=%2FImages%2FaboutLatest.webp&w=828&q=75");
+  background-position: center;
+  border-radius: 14px;
+}
+
+
+.about-left > .learn-more{
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.about-left > .learn-more:hover{
+  background-color:black;;
+  border: 1px solid black;
+  color: white;
+}
+
+/* ------services section----- */
+.services-section .underline-about{
+height: 5px;
+width: 100px;
+}
+
