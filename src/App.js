@@ -8,6 +8,9 @@ function App() {
     <div className="App">
      <Home/>
      <About/>
+     <br/>
+     <br/>
+     <br/>
      <Services/>
     </div>
   );

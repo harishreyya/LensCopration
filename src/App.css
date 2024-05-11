@@ -58,7 +58,7 @@ background-position: center;
 height: 400px;
 }
 
-.first-section h1{
+.first-section h1,.service-grid >h2{
  font-size: 64px;
  font-weight: 500;
 }
@@ -122,8 +122,12 @@ height: 400px;
  align-items: center;
  background-color: #E2F2FF;
  font-size: 20px;
+ transition: transform 0.3s ease;
 }
 
+.about-info-div:hover{
+transform: scale(1.1);
+}
 .about-info-div > div{
 padding:20px ;
 /* padding-top: 40px; */
@@ -155,8 +159,41 @@ margin-top: 40px;
 }
 
 /* ------services section----- */
+.services-section{
+  background:  linear-gradient(54deg, #DEF5EC,#FCE8E5, #DBF2F7,#FCF3E1);
+  background-clip: content-box;
+  background-color: var(--aboutBg);
+}
+
 .services-section .underline-about{
 height: 5px;
 width: 100px;
 }
 
+.services-section>h1{
+  padding: 20px 65px;
+}
+
+.service-grid{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  margin: auto;
+}
+
+.service-grid > div{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+border: 1px solid black;
+padding: 20px;
+font-size: 20px;
+font-weight: 500;
+background-color: white;
+}
+
+.service-grid-parent{
+  display: flex;
+  justify-content: center;
+}
