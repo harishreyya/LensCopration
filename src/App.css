@@ -99,7 +99,7 @@ height: 400px;
 
 /* ------------about section-------- */
 
-.about-section > h1,.services-section > h2,.services-section > h1{
+.about-section > h1,.services-section > h2,.services-section > h1,.solutions-section > h2,.solutions-section >h1{
   text-align: center;
 }
 
@@ -165,13 +165,13 @@ margin-top: 40px;
   background-color: var(--aboutBg);
 }
 
-.services-section .underline-about{
+.services-section .underline-about, .solutions-section .underline-about{
 height: 5px;
 width: 100px;
 }
 
-.services-section>h1{
-  padding: 20px 65px;
+.services-section>h1, .solutions-section >h1{
+  padding: 20px 100px;
 }
 
 .service-grid{
@@ -274,3 +274,7 @@ color: #FF9F31;
         font-weight: 500;        
         }
 
+        /* -------------solutions--------- */
+
+  
+ 
