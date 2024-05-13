@@ -298,12 +298,12 @@ color: #FF9F31;
 width: 280px;
 border: 1px solid black;
 border-radius: 10px;
-padding: 10px;
+padding: 13px;
 }
 
 .ai-boxes > div:hover, .ai-last-card>div:hover{
 background: white;
-border: none;
+border: 1px solid rgb(184, 183, 183);
 }
 
 .ai-last-card{
@@ -311,5 +311,5 @@ border: none;
 }
 
 .solutions-section{
-background: linear-gradient(45deg, #FCFBF7, #FFFFFF,#FBE5D9,#F6FAF5,#DEF5ED,#F7FAF7);
+background: linear-gradient(45deg, #FCFBF7, #FFFFFF,#F6FAF5,#F7FAF7);
 }
